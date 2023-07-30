@@ -1,10 +1,17 @@
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
+}
+#logo{
+    width: auto;
+    height: 3em;
+    border: none;
+    display: flex;
+    padding: 20px 0 0 0;
 }
 .header{
     font-size: 18px;
@@ -13,7 +20,7 @@ body{
     justify-content: space-between;
     height: 8vh;
     width: auto;
-    align-items: baseline;
+    
     background-color: #1F2937;
     border-left: 150px solid #1F2937; 
     border-right: 150px solid #1F2937;
@@ -78,7 +85,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 gap: 24px;
-
+border-top: 32px solid transparent;
 }
 .bodytwo{
     text-align: center;
@@ -93,17 +100,54 @@ gap: 24px;
 }
 .quote{
     border-top: 50px solid transparent;
-
-}
-blockquote{
-    font-size: 36px ;
-    font-style: italic;
-    color: #1F2937;
     text-align: justify;
     display: flex;
     justify-content: center;
 }
-p{
+blockquote{
+
+    width: 600px;
+    align-content: center;
     
 }
-
+.blockquote__autor{
+    
+    font-weight: bold;
+}
+.blockquote__text{
+    font-size: 24px ;
+    font-style: italic;
+    color: #1F2937;
+}
+.signupbaner{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: auto;
+    border-left: 150px solid #F9FAF8; 
+    border-right: 150px solid #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: 150px solid #F9FAF8;
+}
+.signuptext{
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 420px;
+    color: #F9FAF8;
+    
+}
+.buttonbaner{
+    border: 3px solid #F9FAF8;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 2em;
+    color: #c0c0c0;
+}
